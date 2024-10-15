@@ -48,7 +48,7 @@ function Hero() {
             <img src={githubIcon} alt="Github icon" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           With a passion for developing modern React web apps and UX/UI Design
           for commercial businesses.
         </p>
