@@ -1,4 +1,3 @@
-import React from 'react'
 
 function SkillList({ src, skill }) {
   return (
