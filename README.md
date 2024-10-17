@@ -1,5 +1,5 @@
 # Nicholas Puckdee - Portfolio
-**Link:** [Portfolio Link](https://ppuckdee.github.io/nick-puckdee/)
+[Link](https://ppuckdee.github.io/nick-puckdee/)
 
 ## React + Vite
 
