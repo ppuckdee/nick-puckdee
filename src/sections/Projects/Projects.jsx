@@ -1,7 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
 import harmony from "../../assets/harmony.png";
 import harmonyslide from "../../assets/harmony.pdf";
-import darkthrone from "../../assets/darkthrone.png"
+import darkthrone from "../../assets/darkthrone.png";
+import artify from "../../assets/artify.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -20,6 +21,12 @@ function Projects() {
           link="https://github.com/esaltzherr/Dark-Throne"
           h3="Dark Throne"
           p="2D Game Project"
+        />
+         <ProjectCard
+          src={artify}
+          link="https://github.com/ppuckdee/Artify"
+          h3="Artify"
+          p="Drawing app for children"
         />
       </div>
     </section>
