@@ -1,5 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import harmony from "../../assets/harmony.png";
+import harmonyslide from "../../assets/harmony.pdf";
+import darkthrone from "../../assets/darkthrone.png"
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -9,21 +11,15 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={harmony}
-          link="https://www.canva.com/design/DAGHEdKpBZg/xYmwsiJcK4ZvwhLLryp3mw/edit?utm_content=DAGHEdKpBZg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          link={harmonyslide}
           h3="Harmony"
           p="Work-life balance app design"
         />
         <ProjectCard
-          src={harmony}
-          link="https://www.canva.com/design/DAGHEdKpBZg/xYmwsiJcK4ZvwhLLryp3mw/edit?utm_content=DAGHEdKpBZg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-          h3="Harmony"
-          p="Work-life balance app design"
-        />
-        <ProjectCard
-          src={harmony}
-          link="https://www.canva.com/design/DAGHEdKpBZg/xYmwsiJcK4ZvwhLLryp3mw/edit?utm_content=DAGHEdKpBZg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-          h3="Harmony"
-          p="Work-life balance app design"
+          src={darkthrone}
+          link="https://github.com/esaltzherr/Dark-Throne"
+          h3="Dark Throne"
+          p="2D Game Project"
         />
       </div>
     </section>
