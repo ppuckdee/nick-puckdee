@@ -52,7 +52,7 @@ function Hero() {
           With a passion for developing modern React web apps and UX/UI Design
           for commercial businesses.
         </p>
-        <a href={CV} download>
+        <a href={CV} target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>
         </a>
       </div>
